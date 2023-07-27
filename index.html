@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <meta name="author" content="Aderinola Opemipo Emmanuel">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+<main>
+  <div class="container">
+    <div class="content">
+      <header>
+        Learn to code by watching others
+      </header>
+      <div class="details">
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. </p>
+      </div>
+    </div>
+    <div class="registration">
+      <header>
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </header>
+      <form action="#" autocomplete="on" class="r-form">
+        <input id="firstname" type="text" placeholder="First Name" required><br>
+        <div class="hide firstname">
+          <em>First Name cannot be empty</em>
+        </div>
+        <input id="lastname" type="text" placeholder="Last Name" required><br>
+        <div class="hide lastname">
+          <em>Last Name cannot be empty</em>
+        </div>
+        <input id="email" type="email" placeholder="Email Address" required><br>
+        <div class="hide email">
+          <em>Looks like this is not an email</em>
+        </div>
+        <input id="password" type="password" placeholder="Password" required><br>
+        <div class="hide password">
+          <em>Password cannot be empty</em>
+        </div>
+        <input id="btn" type="button" value="Claim your free trial"><br>
+        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Aderinola Opemipo Emmanuel</a>.
+    </p>
+  </footer>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
